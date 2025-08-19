@@ -1,0 +1,8 @@
+{
+    "build": [
+        {
+            "command": "sudo docker build -t glowman554/deno .",
+            "directory": "{{service}}"
+        }
+    ]
+}
